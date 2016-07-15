@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace ChessApplication
 {
     partial class Form1
     {
