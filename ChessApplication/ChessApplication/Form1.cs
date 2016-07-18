@@ -46,7 +46,42 @@ namespace ChessApplication
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            pictureBox5.DragEnter += new DragEventHandler(pictureBox5_DragEnter);
+            pictureBox5.DragDrop += new DragEventHandler(pictureBox5_DragDrop);
+//            pictureBox5.MouseDown += new DragEventHandler(pictureBox5_MouseDown);
 
+            pictureBox4.DragEnter += new DragEventHandler(pictureBox5_DragEnter);
+            pictureBox4.DragDrop += new DragEventHandler(pictureBox5_DragDrop);
+  //          pictureBox4.MouseDown += new DragEventHandler(pictureBox5_MouseDown);
+
+            pictureBox5.AllowDrop = true;
+            pictureBox4.AllowDrop = true;
+            
+        }
+
+        private void pictureBox5_DragDrop(object sender, DragEventArgs e)
+        {
+            PictureBox pb = (PictureBox)sender;
+            pb.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
+        }
+
+        private void pictureBox5_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Bitmap))
+                e.Effect = DragDropEffects.Copy;
+            else
+                e.Effect = DragDropEffects.None;
+        }
+
+        private void pictureBox5_MouseDown(object sender, MouseEventArgs e)
+        {
+            PictureBox pb = (PictureBox)sender;
+            pb.Select();
+            pb.DoDragDrop(pb.Image, DragDropEffects.Copy);
         }
     }
+
+
 }
+
+
