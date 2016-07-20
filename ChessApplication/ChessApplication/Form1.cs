@@ -37,26 +37,33 @@ namespace ChessApplication
             return;
         }
 
-        private void pictureBox4_MouseDown(object sender, EventArgs e)
-        {
+        //private void pictureBox4_MouseDown(object sender, EventArgs e)
+        //{
             
-            this.DoDragDrop(e, DragDropEffects.Copy | DragDropEffects.Move);
-            //sender.Visible = false;
-        }
+        //    this.DoDragDrop(e, DragDropEffects.Copy | DragDropEffects.Move);
+        //    //sender.Visible = false;
+        //}
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            pictureBox5.DragEnter += new DragEventHandler(pictureBox5_DragEnter);
-            pictureBox5.DragDrop += new DragEventHandler(pictureBox5_DragDrop);
+//            pictureBox5.DragEnter += new DragEventHandler(pictureBox5_DragEnter);
+//            pictureBox5.DragDrop += new DragEventHandler(pictureBox5_DragDrop);
 //            pictureBox5.MouseDown += new DragEventHandler(pictureBox5_MouseDown);
 
             pictureBox4.DragEnter += new DragEventHandler(pictureBox5_DragEnter);
             pictureBox4.DragDrop += new DragEventHandler(pictureBox5_DragDrop);
             //          pictureBox4.MouseDown += new DragEventHandler(pictureBox5_MouseDown);
+            pictureBox3.DragEnter += new DragEventHandler(pictureBox5_DragEnter);
+            pictureBox3.DragDrop += new DragEventHandler(pictureBox5_DragEnter);
+
+            pictureBox2.DragEnter += new DragEventHandler(pictureBox5_DragEnter);
+            pictureBox2.DragDrop += new DragEventHandler(pictureBox5_DragDrop);
 
             pictureBox1.AllowDrop = true;
             pictureBox5.AllowDrop = true;
             pictureBox4.AllowDrop = true;
+            pictureBox3.AllowDrop = true;
+            pictureBox2.AllowDrop = true;
             
         }
 

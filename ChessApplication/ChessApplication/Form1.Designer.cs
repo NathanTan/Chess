@@ -36,7 +36,7 @@ namespace ChessApplication
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+     //       this.button1 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -54,6 +54,8 @@ namespace ChessApplication
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+
+//            this.pictureBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox5_DragDrop);
             // 
             // pictureBox2
             // 
@@ -63,6 +65,8 @@ namespace ChessApplication
             this.pictureBox2.Size = new System.Drawing.Size(0, 0);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+
+            this.pictureBox2.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox5_DragDrop);
             // 
             // pictureBox3
             // 
@@ -72,7 +76,9 @@ namespace ChessApplication
             this.pictureBox3.Size = new System.Drawing.Size(0, 0);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox5_MouseDown);
+         //   this.pictureBox3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox5_MouseDown);
+            this.pictureBox3.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox5_DragDrop);
+           
             // 
             // pictureBox4
             // 
@@ -82,18 +88,18 @@ namespace ChessApplication
             this.pictureBox4.Size = new System.Drawing.Size(340, 258);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_MouseDown);
+     //       this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_MouseDown);
             // 
             // button1
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(922, 26);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 200);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.pictureBox4_MouseDown);
+            //this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            //this.button1.Location = new System.Drawing.Point(922, 26);
+            //this.button1.Name = "button1";
+            //this.button1.Size = new System.Drawing.Size(200, 200);
+            //this.button1.TabIndex = 4;
+            //this.button1.Text = "button1";
+            //this.button1.UseVisualStyleBackColor = true;
+            //this.button1.Click += new System.EventHandler(this.pictureBox4_MouseDown);
             // 
             // pictureBox5
             // 
@@ -117,7 +123,7 @@ namespace ChessApplication
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button1);
+           // this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -142,7 +148,7 @@ namespace ChessApplication
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button button1;
+       // private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
