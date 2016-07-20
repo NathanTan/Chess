@@ -72,6 +72,7 @@ namespace ChessApplication
             this.pictureBox3.Size = new System.Drawing.Size(0, 0);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox5_MouseDown);
             // 
             // pictureBox4
             // 

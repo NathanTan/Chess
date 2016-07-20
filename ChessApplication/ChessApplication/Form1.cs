@@ -52,8 +52,9 @@ namespace ChessApplication
 
             pictureBox4.DragEnter += new DragEventHandler(pictureBox5_DragEnter);
             pictureBox4.DragDrop += new DragEventHandler(pictureBox5_DragDrop);
-  //          pictureBox4.MouseDown += new DragEventHandler(pictureBox5_MouseDown);
+            //          pictureBox4.MouseDown += new DragEventHandler(pictureBox5_MouseDown);
 
+            pictureBox1.AllowDrop = true;
             pictureBox5.AllowDrop = true;
             pictureBox4.AllowDrop = true;
             
