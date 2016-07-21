@@ -31,11 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChessBoard));
             this.pictureBoxB7 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBoxA1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxC1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxE1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxG1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxH1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxD3 = new System.Windows.Forms.PictureBox();
             this.pictureBoxG4 = new System.Windows.Forms.PictureBox();
             this.pictureBoxC3 = new System.Windows.Forms.PictureBox();
@@ -70,9 +65,6 @@
             this.pictureBoxC7 = new System.Windows.Forms.PictureBox();
             this.pictureBoxA6 = new System.Windows.Forms.PictureBox();
             this.pictureBoxB4 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxF1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxD1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxB1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxB2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxA2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxC2 = new System.Windows.Forms.PictureBox();
@@ -94,13 +86,16 @@
             this.pictureBoxF8 = new System.Windows.Forms.PictureBox();
             this.pictureBoxG8 = new System.Windows.Forms.PictureBox();
             this.pictureBoxH8 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxH1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxG1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxF1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxE1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxC1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxD1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxB1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxA1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB7)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxE1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC3)).BeginInit();
@@ -135,9 +130,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxF1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC2)).BeginInit();
@@ -159,6 +151,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxF8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxF1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxE1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBoxB7
@@ -257,54 +257,9 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1019, 1021);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(974, 973);
             this.tableLayoutPanel1.TabIndex = 2;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
-            // 
-            // pictureBoxA1
-            // 
-            this.pictureBoxA1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxA1.Image")));
-            this.pictureBoxA1.Location = new System.Drawing.Point(3, 850);
-            this.pictureBoxA1.Name = "pictureBoxA1";
-            this.pictureBoxA1.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxA1.TabIndex = 7;
-            this.pictureBoxA1.TabStop = false;
-            // 
-            // pictureBoxC1
-            // 
-            this.pictureBoxC1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxC1.Image")));
-            this.pictureBoxC1.Location = new System.Drawing.Point(245, 850);
-            this.pictureBoxC1.Name = "pictureBoxC1";
-            this.pictureBoxC1.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxC1.TabIndex = 8;
-            this.pictureBoxC1.TabStop = false;
-            // 
-            // pictureBoxE1
-            // 
-            this.pictureBoxE1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxE1.Image")));
-            this.pictureBoxE1.Location = new System.Drawing.Point(487, 850);
-            this.pictureBoxE1.Name = "pictureBoxE1";
-            this.pictureBoxE1.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxE1.TabIndex = 9;
-            this.pictureBoxE1.TabStop = false;
-            // 
-            // pictureBoxG1
-            // 
-            this.pictureBoxG1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxG1.Image")));
-            this.pictureBoxG1.Location = new System.Drawing.Point(729, 850);
-            this.pictureBoxG1.Name = "pictureBoxG1";
-            this.pictureBoxG1.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxG1.TabIndex = 10;
-            this.pictureBoxG1.TabStop = false;
-            // 
-            // pictureBoxH1
-            // 
-            this.pictureBoxH1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH1.Image")));
-            this.pictureBoxH1.Location = new System.Drawing.Point(850, 850);
-            this.pictureBoxH1.Name = "pictureBoxH1";
-            this.pictureBoxH1.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxH1.TabIndex = 14;
-            this.pictureBoxH1.TabStop = false;
             // 
             // pictureBoxD3
             // 
@@ -612,33 +567,6 @@
             this.pictureBoxB4.TabIndex = 4;
             this.pictureBoxB4.TabStop = false;
             // 
-            // pictureBoxF1
-            // 
-            this.pictureBoxF1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxF1.Image")));
-            this.pictureBoxF1.Location = new System.Drawing.Point(608, 850);
-            this.pictureBoxF1.Name = "pictureBoxF1";
-            this.pictureBoxF1.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxF1.TabIndex = 15;
-            this.pictureBoxF1.TabStop = false;
-            // 
-            // pictureBoxD1
-            // 
-            this.pictureBoxD1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxD1.Image")));
-            this.pictureBoxD1.Location = new System.Drawing.Point(366, 850);
-            this.pictureBoxD1.Name = "pictureBoxD1";
-            this.pictureBoxD1.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxD1.TabIndex = 16;
-            this.pictureBoxD1.TabStop = false;
-            // 
-            // pictureBoxB1
-            // 
-            this.pictureBoxB1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB1.Image")));
-            this.pictureBoxB1.Location = new System.Drawing.Point(124, 850);
-            this.pictureBoxB1.Name = "pictureBoxB1";
-            this.pictureBoxB1.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxB1.TabIndex = 17;
-            this.pictureBoxB1.TabStop = false;
-            // 
             // pictureBoxB2
             // 
             this.pictureBoxB2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB2.Image")));
@@ -828,6 +756,78 @@
             this.pictureBoxH8.TabIndex = 37;
             this.pictureBoxH8.TabStop = false;
             // 
+            // pictureBoxH1
+            // 
+            this.pictureBoxH1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH1.Image")));
+            this.pictureBoxH1.Location = new System.Drawing.Point(850, 850);
+            this.pictureBoxH1.Name = "pictureBoxH1";
+            this.pictureBoxH1.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxH1.TabIndex = 14;
+            this.pictureBoxH1.TabStop = false;
+            // 
+            // pictureBoxG1
+            // 
+            this.pictureBoxG1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxG1.Image")));
+            this.pictureBoxG1.Location = new System.Drawing.Point(729, 850);
+            this.pictureBoxG1.Name = "pictureBoxG1";
+            this.pictureBoxG1.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxG1.TabIndex = 10;
+            this.pictureBoxG1.TabStop = false;
+            // 
+            // pictureBoxF1
+            // 
+            this.pictureBoxF1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxF1.Image")));
+            this.pictureBoxF1.Location = new System.Drawing.Point(608, 850);
+            this.pictureBoxF1.Name = "pictureBoxF1";
+            this.pictureBoxF1.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxF1.TabIndex = 15;
+            this.pictureBoxF1.TabStop = false;
+            // 
+            // pictureBoxE1
+            // 
+            this.pictureBoxE1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxE1.Image")));
+            this.pictureBoxE1.Location = new System.Drawing.Point(487, 850);
+            this.pictureBoxE1.Name = "pictureBoxE1";
+            this.pictureBoxE1.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxE1.TabIndex = 9;
+            this.pictureBoxE1.TabStop = false;
+            // 
+            // pictureBoxC1
+            // 
+            this.pictureBoxC1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxC1.Image")));
+            this.pictureBoxC1.Location = new System.Drawing.Point(245, 850);
+            this.pictureBoxC1.Name = "pictureBoxC1";
+            this.pictureBoxC1.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxC1.TabIndex = 8;
+            this.pictureBoxC1.TabStop = false;
+            // 
+            // pictureBoxD1
+            // 
+            this.pictureBoxD1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxD1.Image")));
+            this.pictureBoxD1.Location = new System.Drawing.Point(366, 850);
+            this.pictureBoxD1.Name = "pictureBoxD1";
+            this.pictureBoxD1.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxD1.TabIndex = 16;
+            this.pictureBoxD1.TabStop = false;
+            // 
+            // pictureBoxB1
+            // 
+            this.pictureBoxB1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB1.Image")));
+            this.pictureBoxB1.Location = new System.Drawing.Point(124, 850);
+            this.pictureBoxB1.Name = "pictureBoxB1";
+            this.pictureBoxB1.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxB1.TabIndex = 17;
+            this.pictureBoxB1.TabStop = false;
+            // 
+            // pictureBoxA1
+            // 
+            this.pictureBoxA1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxA1.Image")));
+            this.pictureBoxA1.Location = new System.Drawing.Point(3, 850);
+            this.pictureBoxA1.Name = "pictureBoxA1";
+            this.pictureBoxA1.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxA1.TabIndex = 7;
+            this.pictureBoxA1.TabStop = false;
+            // 
             // ChessBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -838,11 +838,6 @@
             this.Text = "ChessBoard";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB7)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxE1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC3)).EndInit();
@@ -877,9 +872,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxF1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC2)).EndInit();
@@ -901,6 +893,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxF8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxF1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxE1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -942,14 +942,6 @@
         private System.Windows.Forms.PictureBox pictureBoxB5;
         private System.Windows.Forms.PictureBox pictureBoxA5;
         private System.Windows.Forms.PictureBox pictureBoxB4;
-        private System.Windows.Forms.PictureBox pictureBoxA1;
-        private System.Windows.Forms.PictureBox pictureBoxC1;
-        private System.Windows.Forms.PictureBox pictureBoxE1;
-        private System.Windows.Forms.PictureBox pictureBoxG1;
-        private System.Windows.Forms.PictureBox pictureBoxH1;
-        private System.Windows.Forms.PictureBox pictureBoxF1;
-        private System.Windows.Forms.PictureBox pictureBoxD1;
-        private System.Windows.Forms.PictureBox pictureBoxB1;
         private System.Windows.Forms.PictureBox pictureBoxB2;
         private System.Windows.Forms.PictureBox pictureBoxA2;
         private System.Windows.Forms.PictureBox pictureBoxE3;
@@ -971,5 +963,13 @@
         private System.Windows.Forms.PictureBox pictureBoxE8;
         private System.Windows.Forms.PictureBox pictureBoxD8;
         private System.Windows.Forms.PictureBox pictureBoxC8;
+        private System.Windows.Forms.PictureBox pictureBoxA1;
+        private System.Windows.Forms.PictureBox pictureBoxB1;
+        private System.Windows.Forms.PictureBox pictureBoxD1;
+        private System.Windows.Forms.PictureBox pictureBoxC1;
+        private System.Windows.Forms.PictureBox pictureBoxE1;
+        private System.Windows.Forms.PictureBox pictureBoxF1;
+        private System.Windows.Forms.PictureBox pictureBoxG1;
+        private System.Windows.Forms.PictureBox pictureBoxH1;
     }
 }
