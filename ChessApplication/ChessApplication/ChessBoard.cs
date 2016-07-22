@@ -21,5 +21,11 @@ namespace ChessApplication
         {
 
         }
+
+        private void ChessBoard_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
