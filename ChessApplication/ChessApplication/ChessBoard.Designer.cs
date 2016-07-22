@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChessBoard));
-            this.pictureBoxB7 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBoxH8 = new System.Windows.Forms.PictureBox();
             this.pictureBoxG8 = new System.Windows.Forms.PictureBox();
@@ -46,7 +45,6 @@
             this.pictureBoxF1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxG1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxA2 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxB2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxC2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxD2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxE2 = new System.Windows.Forms.PictureBox();
@@ -84,6 +82,7 @@
             this.pictureBoxD6 = new System.Windows.Forms.PictureBox();
             this.pictureBoxE6 = new System.Windows.Forms.PictureBox();
             this.pictureBoxF6 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxB7 = new System.Windows.Forms.PictureBox();
             this.pictureBoxC7 = new System.Windows.Forms.PictureBox();
             this.pictureBoxD7 = new System.Windows.Forms.PictureBox();
             this.pictureBoxE7 = new System.Windows.Forms.PictureBox();
@@ -92,9 +91,9 @@
             this.pictureBoxG7 = new System.Windows.Forms.PictureBox();
             this.pictureBoxG6 = new System.Windows.Forms.PictureBox();
             this.pictureBoxH6 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxB8 = new System.Windows.Forms.PictureBox();
             this.pictureBoxA7 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB7)).BeginInit();
+            this.pictureBoxB8 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxB2 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG8)).BeginInit();
@@ -111,7 +110,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxF1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxE2)).BeginInit();
@@ -149,6 +147,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxE6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxF6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxE7)).BeginInit();
@@ -157,18 +156,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBoxB7
-            // 
-            this.pictureBoxB7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB7.Image")));
-            this.pictureBoxB7.Location = new System.Drawing.Point(124, 124);
-            this.pictureBoxB7.Name = "pictureBoxB7";
-            this.pictureBoxB7.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxB7.TabIndex = 1;
-            this.pictureBoxB7.TabStop = false;
             // 
             // tableLayoutPanel1
             // 
@@ -196,7 +187,6 @@
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxF1, 5, 8);
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxG1, 6, 8);
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxA2, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBoxB2, 1, 7);
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxC2, 2, 7);
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxD2, 3, 7);
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxE2, 4, 7);
@@ -243,8 +233,9 @@
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxG7, 6, 1);
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxG6, 6, 2);
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxH6, 7, 2);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBoxB8, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxA7, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBoxB8, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBoxB2, 1, 7);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(251, 12);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 9;
@@ -263,7 +254,7 @@
             // 
             // pictureBoxH8
             // 
-            this.pictureBoxH8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH8.Image")));
+            this.pictureBoxH8.Image = global::ChessApplication.Properties.Resources.BRook;
             this.pictureBoxH8.Location = new System.Drawing.Point(850, 3);
             this.pictureBoxH8.Name = "pictureBoxH8";
             this.pictureBoxH8.Size = new System.Drawing.Size(115, 115);
@@ -272,7 +263,7 @@
             // 
             // pictureBoxG8
             // 
-            this.pictureBoxG8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxG8.Image")));
+            this.pictureBoxG8.Image = global::ChessApplication.Properties.Resources.BKnight;
             this.pictureBoxG8.Location = new System.Drawing.Point(729, 3);
             this.pictureBoxG8.Name = "pictureBoxG8";
             this.pictureBoxG8.Size = new System.Drawing.Size(115, 115);
@@ -281,7 +272,7 @@
             // 
             // pictureBoxF8
             // 
-            this.pictureBoxF8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxF8.Image")));
+            this.pictureBoxF8.Image = global::ChessApplication.Properties.Resources.BBishop;
             this.pictureBoxF8.Location = new System.Drawing.Point(608, 3);
             this.pictureBoxF8.Name = "pictureBoxF8";
             this.pictureBoxF8.Size = new System.Drawing.Size(115, 115);
@@ -290,7 +281,7 @@
             // 
             // pictureBoxE8
             // 
-            this.pictureBoxE8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxE8.Image")));
+            this.pictureBoxE8.Image = global::ChessApplication.Properties.Resources.BKing;
             this.pictureBoxE8.Location = new System.Drawing.Point(487, 3);
             this.pictureBoxE8.Name = "pictureBoxE8";
             this.pictureBoxE8.Size = new System.Drawing.Size(115, 115);
@@ -299,7 +290,7 @@
             // 
             // pictureBoxD8
             // 
-            this.pictureBoxD8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxD8.Image")));
+            this.pictureBoxD8.Image = global::ChessApplication.Properties.Resources.BQueen;
             this.pictureBoxD8.Location = new System.Drawing.Point(366, 3);
             this.pictureBoxD8.Name = "pictureBoxD8";
             this.pictureBoxD8.Size = new System.Drawing.Size(115, 115);
@@ -308,7 +299,7 @@
             // 
             // pictureBoxC8
             // 
-            this.pictureBoxC8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxC8.Image")));
+            this.pictureBoxC8.Image = global::ChessApplication.Properties.Resources.BBishop;
             this.pictureBoxC8.Location = new System.Drawing.Point(245, 3);
             this.pictureBoxC8.Name = "pictureBoxC8";
             this.pictureBoxC8.Size = new System.Drawing.Size(115, 115);
@@ -317,7 +308,7 @@
             // 
             // pictureBoxA8
             // 
-            this.pictureBoxA8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxA8.Image")));
+            this.pictureBoxA8.Image = global::ChessApplication.Properties.Resources.BRook;
             this.pictureBoxA8.Location = new System.Drawing.Point(3, 3);
             this.pictureBoxA8.Name = "pictureBoxA8";
             this.pictureBoxA8.Size = new System.Drawing.Size(115, 115);
@@ -326,7 +317,7 @@
             // 
             // pictureBoxA1
             // 
-            this.pictureBoxA1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxA1.Image")));
+            this.pictureBoxA1.Image = global::ChessApplication.Properties.Resources.WRook;
             this.pictureBoxA1.Location = new System.Drawing.Point(3, 850);
             this.pictureBoxA1.Name = "pictureBoxA1";
             this.pictureBoxA1.Size = new System.Drawing.Size(115, 115);
@@ -335,7 +326,7 @@
             // 
             // pictureBoxB1
             // 
-            this.pictureBoxB1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB1.Image")));
+            this.pictureBoxB1.Image = global::ChessApplication.Properties.Resources.WKnight;
             this.pictureBoxB1.Location = new System.Drawing.Point(124, 850);
             this.pictureBoxB1.Name = "pictureBoxB1";
             this.pictureBoxB1.Size = new System.Drawing.Size(115, 115);
@@ -344,7 +335,7 @@
             // 
             // pictureBoxD1
             // 
-            this.pictureBoxD1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxD1.Image")));
+            this.pictureBoxD1.Image = global::ChessApplication.Properties.Resources.WQueen;
             this.pictureBoxD1.Location = new System.Drawing.Point(366, 850);
             this.pictureBoxD1.Name = "pictureBoxD1";
             this.pictureBoxD1.Size = new System.Drawing.Size(115, 115);
@@ -353,7 +344,7 @@
             // 
             // pictureBoxC1
             // 
-            this.pictureBoxC1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxC1.Image")));
+            this.pictureBoxC1.Image = global::ChessApplication.Properties.Resources.WBishop;
             this.pictureBoxC1.Location = new System.Drawing.Point(245, 850);
             this.pictureBoxC1.Name = "pictureBoxC1";
             this.pictureBoxC1.Size = new System.Drawing.Size(115, 115);
@@ -362,7 +353,7 @@
             // 
             // pictureBoxE1
             // 
-            this.pictureBoxE1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxE1.Image")));
+            this.pictureBoxE1.Image = global::ChessApplication.Properties.Resources.WKing;
             this.pictureBoxE1.Location = new System.Drawing.Point(487, 850);
             this.pictureBoxE1.Name = "pictureBoxE1";
             this.pictureBoxE1.Size = new System.Drawing.Size(115, 115);
@@ -371,7 +362,7 @@
             // 
             // pictureBoxF1
             // 
-            this.pictureBoxF1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxF1.Image")));
+            this.pictureBoxF1.Image = global::ChessApplication.Properties.Resources.WBishop;
             this.pictureBoxF1.Location = new System.Drawing.Point(608, 850);
             this.pictureBoxF1.Name = "pictureBoxF1";
             this.pictureBoxF1.Size = new System.Drawing.Size(115, 115);
@@ -380,7 +371,7 @@
             // 
             // pictureBoxG1
             // 
-            this.pictureBoxG1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxG1.Image")));
+            this.pictureBoxG1.Image = global::ChessApplication.Properties.Resources.WKnight;
             this.pictureBoxG1.Location = new System.Drawing.Point(729, 850);
             this.pictureBoxG1.Name = "pictureBoxG1";
             this.pictureBoxG1.Size = new System.Drawing.Size(115, 115);
@@ -389,25 +380,16 @@
             // 
             // pictureBoxA2
             // 
-            this.pictureBoxA2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxA2.Image")));
+            this.pictureBoxA2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxA2.Location = new System.Drawing.Point(3, 729);
             this.pictureBoxA2.Name = "pictureBoxA2";
             this.pictureBoxA2.Size = new System.Drawing.Size(115, 115);
             this.pictureBoxA2.TabIndex = 19;
             this.pictureBoxA2.TabStop = false;
             // 
-            // pictureBoxB2
-            // 
-            this.pictureBoxB2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB2.Image")));
-            this.pictureBoxB2.Location = new System.Drawing.Point(124, 729);
-            this.pictureBoxB2.Name = "pictureBoxB2";
-            this.pictureBoxB2.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxB2.TabIndex = 8;
-            this.pictureBoxB2.TabStop = false;
-            // 
             // pictureBoxC2
             // 
-            this.pictureBoxC2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxC2.Image")));
+            this.pictureBoxC2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxC2.Location = new System.Drawing.Point(245, 729);
             this.pictureBoxC2.Name = "pictureBoxC2";
             this.pictureBoxC2.Size = new System.Drawing.Size(115, 115);
@@ -416,7 +398,7 @@
             // 
             // pictureBoxD2
             // 
-            this.pictureBoxD2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxD2.Image")));
+            this.pictureBoxD2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxD2.Location = new System.Drawing.Point(366, 729);
             this.pictureBoxD2.Name = "pictureBoxD2";
             this.pictureBoxD2.Size = new System.Drawing.Size(115, 115);
@@ -425,7 +407,7 @@
             // 
             // pictureBoxE2
             // 
-            this.pictureBoxE2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxE2.Image")));
+            this.pictureBoxE2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxE2.Location = new System.Drawing.Point(487, 729);
             this.pictureBoxE2.Name = "pictureBoxE2";
             this.pictureBoxE2.Size = new System.Drawing.Size(115, 115);
@@ -434,7 +416,7 @@
             // 
             // pictureBoxF2
             // 
-            this.pictureBoxF2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxF2.Image")));
+            this.pictureBoxF2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxF2.Location = new System.Drawing.Point(608, 729);
             this.pictureBoxF2.Name = "pictureBoxF2";
             this.pictureBoxF2.Size = new System.Drawing.Size(115, 115);
@@ -452,7 +434,7 @@
             // 
             // pictureBoxH1
             // 
-            this.pictureBoxH1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH1.Image")));
+            this.pictureBoxH1.Image = global::ChessApplication.Properties.Resources.WRook;
             this.pictureBoxH1.Location = new System.Drawing.Point(850, 850);
             this.pictureBoxH1.Name = "pictureBoxH1";
             this.pictureBoxH1.Size = new System.Drawing.Size(115, 115);
@@ -524,7 +506,7 @@
             // 
             // pictureBoxH2
             // 
-            this.pictureBoxH2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH2.Image")));
+            this.pictureBoxH2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxH2.Location = new System.Drawing.Point(850, 729);
             this.pictureBoxH2.Name = "pictureBoxH2";
             this.pictureBoxH2.Size = new System.Drawing.Size(115, 115);
@@ -641,7 +623,7 @@
             // 
             // pictureBoxE5
             // 
-            this.pictureBoxE5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxE5.Image")));
+            this.pictureBoxE5.Image = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxE5.Location = new System.Drawing.Point(487, 366);
             this.pictureBoxE5.Name = "pictureBoxE5";
             this.pictureBoxE5.Size = new System.Drawing.Size(115, 115);
@@ -713,7 +695,7 @@
             // 
             // pictureBoxD6
             // 
-            this.pictureBoxD6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxD6.Image")));
+            this.pictureBoxD6.Image = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxD6.Location = new System.Drawing.Point(366, 245);
             this.pictureBoxD6.Name = "pictureBoxD6";
             this.pictureBoxD6.Size = new System.Drawing.Size(115, 115);
@@ -738,9 +720,18 @@
             this.pictureBoxF6.TabIndex = 3;
             this.pictureBoxF6.TabStop = false;
             // 
+            // pictureBoxB7
+            // 
+            this.pictureBoxB7.Image = global::ChessApplication.Properties.Resources.BPawn;
+            this.pictureBoxB7.Location = new System.Drawing.Point(124, 124);
+            this.pictureBoxB7.Name = "pictureBoxB7";
+            this.pictureBoxB7.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxB7.TabIndex = 1;
+            this.pictureBoxB7.TabStop = false;
+            // 
             // pictureBoxC7
             // 
-            this.pictureBoxC7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxC7.Image")));
+            this.pictureBoxC7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxC7.Location = new System.Drawing.Point(245, 124);
             this.pictureBoxC7.Name = "pictureBoxC7";
             this.pictureBoxC7.Size = new System.Drawing.Size(115, 115);
@@ -749,7 +740,7 @@
             // 
             // pictureBoxD7
             // 
-            this.pictureBoxD7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxD7.Image")));
+            this.pictureBoxD7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxD7.Location = new System.Drawing.Point(366, 124);
             this.pictureBoxD7.Name = "pictureBoxD7";
             this.pictureBoxD7.Size = new System.Drawing.Size(115, 115);
@@ -758,7 +749,7 @@
             // 
             // pictureBoxE7
             // 
-            this.pictureBoxE7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxE7.Image")));
+            this.pictureBoxE7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxE7.Location = new System.Drawing.Point(487, 124);
             this.pictureBoxE7.Name = "pictureBoxE7";
             this.pictureBoxE7.Size = new System.Drawing.Size(115, 115);
@@ -767,7 +758,7 @@
             // 
             // pictureBoxH7
             // 
-            this.pictureBoxH7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH7.Image")));
+            this.pictureBoxH7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxH7.Location = new System.Drawing.Point(850, 124);
             this.pictureBoxH7.Name = "pictureBoxH7";
             this.pictureBoxH7.Size = new System.Drawing.Size(115, 115);
@@ -776,7 +767,7 @@
             // 
             // pictureBoxF7
             // 
-            this.pictureBoxF7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxF7.Image")));
+            this.pictureBoxF7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxF7.Location = new System.Drawing.Point(608, 124);
             this.pictureBoxF7.Name = "pictureBoxF7";
             this.pictureBoxF7.Size = new System.Drawing.Size(115, 115);
@@ -785,7 +776,7 @@
             // 
             // pictureBoxG7
             // 
-            this.pictureBoxG7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxG7.Image")));
+            this.pictureBoxG7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxG7.Location = new System.Drawing.Point(729, 124);
             this.pictureBoxG7.Name = "pictureBoxG7";
             this.pictureBoxG7.Size = new System.Drawing.Size(115, 115);
@@ -810,23 +801,32 @@
             this.pictureBoxH6.TabIndex = 3;
             this.pictureBoxH6.TabStop = false;
             // 
+            // pictureBoxA7
+            // 
+            this.pictureBoxA7.Image = global::ChessApplication.Properties.Resources.BPawn;
+            this.pictureBoxA7.Location = new System.Drawing.Point(3, 124);
+            this.pictureBoxA7.Name = "pictureBoxA7";
+            this.pictureBoxA7.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxA7.TabIndex = 30;
+            this.pictureBoxA7.TabStop = false;
+            // 
             // pictureBoxB8
             // 
-            this.pictureBoxB8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB8.Image")));
+            this.pictureBoxB8.Image = global::ChessApplication.Properties.Resources.BKnight;
             this.pictureBoxB8.Location = new System.Drawing.Point(124, 3);
             this.pictureBoxB8.Name = "pictureBoxB8";
             this.pictureBoxB8.Size = new System.Drawing.Size(115, 114);
             this.pictureBoxB8.TabIndex = 25;
             this.pictureBoxB8.TabStop = false;
             // 
-            // pictureBoxA7
+            // pictureBoxB2
             // 
-            this.pictureBoxA7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxA7.Image")));
-            this.pictureBoxA7.Location = new System.Drawing.Point(3, 124);
-            this.pictureBoxA7.Name = "pictureBoxA7";
-            this.pictureBoxA7.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxA7.TabIndex = 30;
-            this.pictureBoxA7.TabStop = false;
+            this.pictureBoxB2.Image = global::ChessApplication.Properties.Resources.WPawn;
+            this.pictureBoxB2.Location = new System.Drawing.Point(124, 729);
+            this.pictureBoxB2.Name = "pictureBoxB2";
+            this.pictureBoxB2.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxB2.TabIndex = 8;
+            this.pictureBoxB2.TabStop = false;
             // 
             // ChessBoard
             // 
@@ -837,7 +837,6 @@
             this.Name = "ChessBoard";
             this.Text = "ChessBoard";
             this.Load += new System.EventHandler(this.ChessBoard_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB7)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG8)).EndInit();
@@ -854,7 +853,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxF1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxE2)).EndInit();
@@ -892,6 +890,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxE6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxF6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxC7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxD7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxE7)).EndInit();
@@ -900,8 +899,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB2)).EndInit();
             this.ResumeLayout(false);
 
         }

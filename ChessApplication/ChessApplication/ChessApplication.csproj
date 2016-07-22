@@ -78,6 +78,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -91,6 +92,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\WRook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\BRook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\BKnight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\BBishop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\BKing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\BQueen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\BPawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\WPawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\WKnight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\WBishop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\WKing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chess_Images\WQueen.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
