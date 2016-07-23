@@ -133,6 +133,16 @@ namespace ChessApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gray {
+            get {
+                object obj = ResourceManager.GetObject("Gray", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RoughBoard {
             get {
                 object obj = ResourceManager.GetObject("RoughBoard", resourceCulture);
@@ -146,6 +156,16 @@ namespace ChessApplication.Properties {
         internal static System.Drawing.Bitmap WBishop {
             get {
                 object obj = ResourceManager.GetObject("WBishop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White {
+            get {
+                object obj = ResourceManager.GetObject("White", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

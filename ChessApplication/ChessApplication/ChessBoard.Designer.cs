@@ -94,7 +94,6 @@
             this.pictureBoxA7 = new System.Windows.Forms.PictureBox();
             this.pictureBoxB8 = new System.Windows.Forms.PictureBox();
             this.pictureBoxB2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG8)).BeginInit();
@@ -160,12 +159,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackgroundImage = global::ChessApplication.Properties.Resources.RoughBoard;
+            this.tableLayoutPanel1.BackgroundImage = global::ChessApplication.Properties.Resources.Gray;
             this.tableLayoutPanel1.ColumnCount = 8;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -257,6 +255,7 @@
             // 
             // pictureBoxH8
             // 
+            this.pictureBoxH8.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxH8.Image = global::ChessApplication.Properties.Resources.BRook;
             this.pictureBoxH8.Location = new System.Drawing.Point(850, 3);
             this.pictureBoxH8.Name = "pictureBoxH8";
@@ -269,6 +268,7 @@
             // 
             // pictureBoxG8
             // 
+            this.pictureBoxG8.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxG8.Image = global::ChessApplication.Properties.Resources.BKnight;
             this.pictureBoxG8.Location = new System.Drawing.Point(729, 3);
             this.pictureBoxG8.Name = "pictureBoxG8";
@@ -281,6 +281,7 @@
             // 
             // pictureBoxF8
             // 
+            this.pictureBoxF8.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxF8.Image = global::ChessApplication.Properties.Resources.BBishop;
             this.pictureBoxF8.Location = new System.Drawing.Point(608, 3);
             this.pictureBoxF8.Name = "pictureBoxF8";
@@ -293,6 +294,7 @@
             // 
             // pictureBoxE8
             // 
+            this.pictureBoxE8.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxE8.Image = global::ChessApplication.Properties.Resources.BKing;
             this.pictureBoxE8.Location = new System.Drawing.Point(487, 3);
             this.pictureBoxE8.Name = "pictureBoxE8";
@@ -305,6 +307,7 @@
             // 
             // pictureBoxD8
             // 
+            this.pictureBoxD8.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxD8.Image = global::ChessApplication.Properties.Resources.BQueen;
             this.pictureBoxD8.Location = new System.Drawing.Point(366, 3);
             this.pictureBoxD8.Name = "pictureBoxD8";
@@ -317,7 +320,7 @@
             // 
             // pictureBoxC8
             // 
-            this.pictureBoxC8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxC8.BackgroundImage")));
+            this.pictureBoxC8.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxC8.Image = global::ChessApplication.Properties.Resources.BBishop;
             this.pictureBoxC8.Location = new System.Drawing.Point(245, 3);
             this.pictureBoxC8.Name = "pictureBoxC8";
@@ -330,6 +333,7 @@
             // 
             // pictureBoxA8
             // 
+            this.pictureBoxA8.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxA8.Image = global::ChessApplication.Properties.Resources.BRook;
             this.pictureBoxA8.Location = new System.Drawing.Point(3, 3);
             this.pictureBoxA8.Name = "pictureBoxA8";
@@ -342,6 +346,7 @@
             // 
             // pictureBoxA1
             // 
+            this.pictureBoxA1.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxA1.Image = global::ChessApplication.Properties.Resources.WRook;
             this.pictureBoxA1.Location = new System.Drawing.Point(3, 850);
             this.pictureBoxA1.Name = "pictureBoxA1";
@@ -354,6 +359,7 @@
             // 
             // pictureBoxB1
             // 
+            this.pictureBoxB1.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxB1.Image = global::ChessApplication.Properties.Resources.WKnight;
             this.pictureBoxB1.Location = new System.Drawing.Point(124, 850);
             this.pictureBoxB1.Name = "pictureBoxB1";
@@ -366,6 +372,7 @@
             // 
             // pictureBoxD1
             // 
+            this.pictureBoxD1.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxD1.Image = global::ChessApplication.Properties.Resources.WQueen;
             this.pictureBoxD1.Location = new System.Drawing.Point(366, 850);
             this.pictureBoxD1.Name = "pictureBoxD1";
@@ -378,6 +385,7 @@
             // 
             // pictureBoxC1
             // 
+            this.pictureBoxC1.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxC1.Image = global::ChessApplication.Properties.Resources.WBishop;
             this.pictureBoxC1.Location = new System.Drawing.Point(245, 850);
             this.pictureBoxC1.Name = "pictureBoxC1";
@@ -390,6 +398,7 @@
             // 
             // pictureBoxE1
             // 
+            this.pictureBoxE1.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxE1.Image = global::ChessApplication.Properties.Resources.WKing;
             this.pictureBoxE1.Location = new System.Drawing.Point(487, 850);
             this.pictureBoxE1.Name = "pictureBoxE1";
@@ -402,6 +411,7 @@
             // 
             // pictureBoxF1
             // 
+            this.pictureBoxF1.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxF1.Image = global::ChessApplication.Properties.Resources.WBishop;
             this.pictureBoxF1.Location = new System.Drawing.Point(608, 850);
             this.pictureBoxF1.Name = "pictureBoxF1";
@@ -414,6 +424,7 @@
             // 
             // pictureBoxG1
             // 
+            this.pictureBoxG1.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxG1.Image = global::ChessApplication.Properties.Resources.WKnight;
             this.pictureBoxG1.Location = new System.Drawing.Point(729, 850);
             this.pictureBoxG1.Name = "pictureBoxG1";
@@ -426,6 +437,7 @@
             // 
             // pictureBoxA2
             // 
+            this.pictureBoxA2.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxA2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxA2.Location = new System.Drawing.Point(3, 729);
             this.pictureBoxA2.Name = "pictureBoxA2";
@@ -438,6 +450,7 @@
             // 
             // pictureBoxC2
             // 
+            this.pictureBoxC2.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxC2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxC2.Location = new System.Drawing.Point(245, 729);
             this.pictureBoxC2.Name = "pictureBoxC2";
@@ -450,6 +463,7 @@
             // 
             // pictureBoxD2
             // 
+            this.pictureBoxD2.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxD2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxD2.Location = new System.Drawing.Point(366, 729);
             this.pictureBoxD2.Name = "pictureBoxD2";
@@ -462,6 +476,7 @@
             // 
             // pictureBoxE2
             // 
+            this.pictureBoxE2.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxE2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxE2.Location = new System.Drawing.Point(487, 729);
             this.pictureBoxE2.Name = "pictureBoxE2";
@@ -474,6 +489,7 @@
             // 
             // pictureBoxF2
             // 
+            this.pictureBoxF2.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxF2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxF2.Location = new System.Drawing.Point(608, 729);
             this.pictureBoxF2.Name = "pictureBoxF2";
@@ -486,6 +502,7 @@
             // 
             // pictureBoxG2
             // 
+            this.pictureBoxG2.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxG2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxG2.Image")));
             this.pictureBoxG2.Location = new System.Drawing.Point(729, 729);
             this.pictureBoxG2.Name = "pictureBoxG2";
@@ -498,6 +515,7 @@
             // 
             // pictureBoxH1
             // 
+            this.pictureBoxH1.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxH1.Image = global::ChessApplication.Properties.Resources.WRook;
             this.pictureBoxH1.Location = new System.Drawing.Point(850, 850);
             this.pictureBoxH1.Name = "pictureBoxH1";
@@ -510,6 +528,7 @@
             // 
             // pictureBoxA3
             // 
+            this.pictureBoxA3.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxA3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxA3.Image")));
             this.pictureBoxA3.Location = new System.Drawing.Point(3, 608);
             this.pictureBoxA3.Name = "pictureBoxA3";
@@ -522,6 +541,7 @@
             // 
             // pictureBoxB3
             // 
+            this.pictureBoxB3.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxB3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB3.Image")));
             this.pictureBoxB3.Location = new System.Drawing.Point(124, 608);
             this.pictureBoxB3.Name = "pictureBoxB3";
@@ -534,6 +554,7 @@
             // 
             // pictureBoxC3
             // 
+            this.pictureBoxC3.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxC3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxC3.Image")));
             this.pictureBoxC3.Location = new System.Drawing.Point(245, 608);
             this.pictureBoxC3.Name = "pictureBoxC3";
@@ -546,6 +567,7 @@
             // 
             // pictureBoxD3
             // 
+            this.pictureBoxD3.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxD3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxD3.Image")));
             this.pictureBoxD3.Location = new System.Drawing.Point(366, 608);
             this.pictureBoxD3.Name = "pictureBoxD3";
@@ -558,6 +580,7 @@
             // 
             // pictureBoxE3
             // 
+            this.pictureBoxE3.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxE3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxE3.Image")));
             this.pictureBoxE3.Location = new System.Drawing.Point(487, 608);
             this.pictureBoxE3.Name = "pictureBoxE3";
@@ -570,6 +593,7 @@
             // 
             // pictureBoxF3
             // 
+            this.pictureBoxF3.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxF3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxF3.Image")));
             this.pictureBoxF3.Location = new System.Drawing.Point(608, 608);
             this.pictureBoxF3.Name = "pictureBoxF3";
@@ -582,6 +606,7 @@
             // 
             // pictureBoxG3
             // 
+            this.pictureBoxG3.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxG3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxG3.Image")));
             this.pictureBoxG3.Location = new System.Drawing.Point(729, 608);
             this.pictureBoxG3.Name = "pictureBoxG3";
@@ -594,6 +619,7 @@
             // 
             // pictureBoxH2
             // 
+            this.pictureBoxH2.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxH2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxH2.Location = new System.Drawing.Point(850, 729);
             this.pictureBoxH2.Name = "pictureBoxH2";
@@ -606,6 +632,7 @@
             // 
             // pictureBoxA4
             // 
+            this.pictureBoxA4.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxA4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxA4.Image")));
             this.pictureBoxA4.Location = new System.Drawing.Point(3, 487);
             this.pictureBoxA4.Name = "pictureBoxA4";
@@ -618,6 +645,7 @@
             // 
             // pictureBoxB4
             // 
+            this.pictureBoxB4.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxB4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB4.Image")));
             this.pictureBoxB4.Location = new System.Drawing.Point(124, 487);
             this.pictureBoxB4.Name = "pictureBoxB4";
@@ -630,6 +658,7 @@
             // 
             // pictureBoxC4
             // 
+            this.pictureBoxC4.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxC4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxC4.Image")));
             this.pictureBoxC4.Location = new System.Drawing.Point(245, 487);
             this.pictureBoxC4.Name = "pictureBoxC4";
@@ -642,6 +671,7 @@
             // 
             // pictureBoxD4
             // 
+            this.pictureBoxD4.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxD4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxD4.Image")));
             this.pictureBoxD4.Location = new System.Drawing.Point(366, 487);
             this.pictureBoxD4.Name = "pictureBoxD4";
@@ -654,6 +684,7 @@
             // 
             // pictureBoxE4
             // 
+            this.pictureBoxE4.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxE4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxE4.Image")));
             this.pictureBoxE4.Location = new System.Drawing.Point(487, 487);
             this.pictureBoxE4.Name = "pictureBoxE4";
@@ -666,6 +697,7 @@
             // 
             // pictureBoxF4
             // 
+            this.pictureBoxF4.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxF4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxF4.Image")));
             this.pictureBoxF4.Location = new System.Drawing.Point(608, 487);
             this.pictureBoxF4.Name = "pictureBoxF4";
@@ -678,6 +710,7 @@
             // 
             // pictureBoxG4
             // 
+            this.pictureBoxG4.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxG4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxG4.Image")));
             this.pictureBoxG4.Location = new System.Drawing.Point(729, 487);
             this.pictureBoxG4.Name = "pictureBoxG4";
@@ -690,6 +723,7 @@
             // 
             // pictureBoxH3
             // 
+            this.pictureBoxH3.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxH3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH3.Image")));
             this.pictureBoxH3.Location = new System.Drawing.Point(850, 608);
             this.pictureBoxH3.Name = "pictureBoxH3";
@@ -702,6 +736,7 @@
             // 
             // pictureBoxA5
             // 
+            this.pictureBoxA5.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxA5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxA5.Image")));
             this.pictureBoxA5.Location = new System.Drawing.Point(3, 366);
             this.pictureBoxA5.Name = "pictureBoxA5";
@@ -714,6 +749,7 @@
             // 
             // pictureBoxB5
             // 
+            this.pictureBoxB5.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxB5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB5.Image")));
             this.pictureBoxB5.Location = new System.Drawing.Point(124, 366);
             this.pictureBoxB5.Name = "pictureBoxB5";
@@ -726,6 +762,7 @@
             // 
             // pictureBoxC5
             // 
+            this.pictureBoxC5.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxC5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxC5.Image")));
             this.pictureBoxC5.Location = new System.Drawing.Point(245, 366);
             this.pictureBoxC5.Name = "pictureBoxC5";
@@ -738,6 +775,7 @@
             // 
             // pictureBoxD5
             // 
+            this.pictureBoxD5.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxD5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxD5.Image")));
             this.pictureBoxD5.Location = new System.Drawing.Point(366, 366);
             this.pictureBoxD5.Name = "pictureBoxD5";
@@ -750,6 +788,7 @@
             // 
             // pictureBoxE5
             // 
+            this.pictureBoxE5.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxE5.Image = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxE5.Location = new System.Drawing.Point(487, 366);
             this.pictureBoxE5.Name = "pictureBoxE5";
@@ -762,6 +801,7 @@
             // 
             // pictureBoxF5
             // 
+            this.pictureBoxF5.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxF5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxF5.Image")));
             this.pictureBoxF5.Location = new System.Drawing.Point(608, 366);
             this.pictureBoxF5.Name = "pictureBoxF5";
@@ -774,6 +814,7 @@
             // 
             // pictureBoxG5
             // 
+            this.pictureBoxG5.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxG5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxG5.Image")));
             this.pictureBoxG5.Location = new System.Drawing.Point(729, 366);
             this.pictureBoxG5.Name = "pictureBoxG5";
@@ -786,6 +827,7 @@
             // 
             // pictureBoxH4
             // 
+            this.pictureBoxH4.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxH4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH4.Image")));
             this.pictureBoxH4.Location = new System.Drawing.Point(850, 487);
             this.pictureBoxH4.Name = "pictureBoxH4";
@@ -798,6 +840,7 @@
             // 
             // pictureBoxA6
             // 
+            this.pictureBoxA6.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxA6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxA6.Image")));
             this.pictureBoxA6.Location = new System.Drawing.Point(3, 245);
             this.pictureBoxA6.Name = "pictureBoxA6";
@@ -810,6 +853,7 @@
             // 
             // pictureBoxH5
             // 
+            this.pictureBoxH5.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxH5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH5.Image")));
             this.pictureBoxH5.Location = new System.Drawing.Point(850, 366);
             this.pictureBoxH5.Name = "pictureBoxH5";
@@ -822,6 +866,7 @@
             // 
             // pictureBoxB6
             // 
+            this.pictureBoxB6.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxB6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxB6.Image")));
             this.pictureBoxB6.Location = new System.Drawing.Point(124, 245);
             this.pictureBoxB6.Name = "pictureBoxB6";
@@ -834,6 +879,7 @@
             // 
             // pictureBoxC6
             // 
+            this.pictureBoxC6.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxC6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxC6.Image")));
             this.pictureBoxC6.Location = new System.Drawing.Point(245, 245);
             this.pictureBoxC6.Name = "pictureBoxC6";
@@ -846,6 +892,7 @@
             // 
             // pictureBoxD6
             // 
+            this.pictureBoxD6.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxD6.Image = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxD6.Location = new System.Drawing.Point(366, 245);
             this.pictureBoxD6.Name = "pictureBoxD6";
@@ -858,6 +905,7 @@
             // 
             // pictureBoxE6
             // 
+            this.pictureBoxE6.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxE6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxE6.Image")));
             this.pictureBoxE6.Location = new System.Drawing.Point(487, 245);
             this.pictureBoxE6.Name = "pictureBoxE6";
@@ -870,6 +918,7 @@
             // 
             // pictureBoxF6
             // 
+            this.pictureBoxF6.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxF6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxF6.Image")));
             this.pictureBoxF6.Location = new System.Drawing.Point(608, 245);
             this.pictureBoxF6.Name = "pictureBoxF6";
@@ -882,6 +931,7 @@
             // 
             // pictureBoxB7
             // 
+            this.pictureBoxB7.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxB7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxB7.Location = new System.Drawing.Point(124, 124);
             this.pictureBoxB7.Name = "pictureBoxB7";
@@ -894,6 +944,7 @@
             // 
             // pictureBoxC7
             // 
+            this.pictureBoxC7.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxC7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxC7.Location = new System.Drawing.Point(245, 124);
             this.pictureBoxC7.Name = "pictureBoxC7";
@@ -906,6 +957,7 @@
             // 
             // pictureBoxD7
             // 
+            this.pictureBoxD7.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxD7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxD7.Location = new System.Drawing.Point(366, 124);
             this.pictureBoxD7.Name = "pictureBoxD7";
@@ -918,6 +970,7 @@
             // 
             // pictureBoxE7
             // 
+            this.pictureBoxE7.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxE7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxE7.Location = new System.Drawing.Point(487, 124);
             this.pictureBoxE7.Name = "pictureBoxE7";
@@ -930,6 +983,7 @@
             // 
             // pictureBoxH7
             // 
+            this.pictureBoxH7.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxH7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxH7.Location = new System.Drawing.Point(850, 124);
             this.pictureBoxH7.Name = "pictureBoxH7";
@@ -942,6 +996,7 @@
             // 
             // pictureBoxF7
             // 
+            this.pictureBoxF7.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxF7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxF7.Location = new System.Drawing.Point(608, 124);
             this.pictureBoxF7.Name = "pictureBoxF7";
@@ -954,6 +1009,7 @@
             // 
             // pictureBoxG7
             // 
+            this.pictureBoxG7.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxG7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxG7.Location = new System.Drawing.Point(729, 124);
             this.pictureBoxG7.Name = "pictureBoxG7";
@@ -966,6 +1022,7 @@
             // 
             // pictureBoxG6
             // 
+            this.pictureBoxG6.BackgroundImage = global::ChessApplication.Properties.Resources.White;
             this.pictureBoxG6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxG6.Image")));
             this.pictureBoxG6.Location = new System.Drawing.Point(729, 245);
             this.pictureBoxG6.Name = "pictureBoxG6";
@@ -978,6 +1035,7 @@
             // 
             // pictureBoxH6
             // 
+            this.pictureBoxH6.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxH6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH6.Image")));
             this.pictureBoxH6.Location = new System.Drawing.Point(850, 245);
             this.pictureBoxH6.Name = "pictureBoxH6";
@@ -990,6 +1048,7 @@
             // 
             // pictureBoxA7
             // 
+            this.pictureBoxA7.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxA7.Image = global::ChessApplication.Properties.Resources.BPawn;
             this.pictureBoxA7.Location = new System.Drawing.Point(3, 124);
             this.pictureBoxA7.Name = "pictureBoxA7";
@@ -1002,6 +1061,7 @@
             // 
             // pictureBoxB8
             // 
+            this.pictureBoxB8.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxB8.Image = global::ChessApplication.Properties.Resources.BKnight;
             this.pictureBoxB8.Location = new System.Drawing.Point(124, 3);
             this.pictureBoxB8.Name = "pictureBoxB8";
@@ -1014,6 +1074,7 @@
             // 
             // pictureBoxB2
             // 
+            this.pictureBoxB2.BackgroundImage = global::ChessApplication.Properties.Resources.Black;
             this.pictureBoxB2.Image = global::ChessApplication.Properties.Resources.WPawn;
             this.pictureBoxB2.Location = new System.Drawing.Point(124, 729);
             this.pictureBoxB2.Name = "pictureBoxB2";
@@ -1024,23 +1085,12 @@
             this.pictureBoxB2.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
             this.pictureBoxB2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(22, 15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1218, 723);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // ChessBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1437, 1045);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "ChessBoard";
             this.Text = "ChessBoard";
             this.Load += new System.EventHandler(this.ChessBoard_Load);
@@ -1109,7 +1159,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1180,6 +1229,5 @@
         private System.Windows.Forms.PictureBox pictureBoxF1;
         private System.Windows.Forms.PictureBox pictureBoxG1;
         private System.Windows.Forms.PictureBox pictureBoxH1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
