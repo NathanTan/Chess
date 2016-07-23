@@ -94,6 +94,7 @@
             this.pictureBoxA7 = new System.Windows.Forms.PictureBox();
             this.pictureBoxB8 = new System.Windows.Forms.PictureBox();
             this.pictureBoxB2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxH8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxG8)).BeginInit();
@@ -159,10 +160,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackgroundImage = global::ChessApplication.Properties.Resources.RoughBoard;
             this.tableLayoutPanel1.ColumnCount = 8;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -314,6 +317,7 @@
             // 
             // pictureBoxC8
             // 
+            this.pictureBoxC8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxC8.BackgroundImage")));
             this.pictureBoxC8.Image = global::ChessApplication.Properties.Resources.BBishop;
             this.pictureBoxC8.Location = new System.Drawing.Point(245, 3);
             this.pictureBoxC8.Name = "pictureBoxC8";
@@ -334,7 +338,7 @@
             this.pictureBoxA8.TabStop = false;
             this.pictureBoxA8.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
             this.pictureBoxA8.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
-            this.pictureBoxA8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);            
+            this.pictureBoxA8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
             // pictureBoxA1
             // 
@@ -360,18 +364,6 @@
             this.pictureBoxB1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
             this.pictureBoxB1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
-            // pictureBoxC1
-            // 
-            this.pictureBoxC1.Image = global::ChessApplication.Properties.Resources.WBishop;
-            this.pictureBoxC1.Location = new System.Drawing.Point(245, 850);
-            this.pictureBoxC1.Name = "pictureBoxC1";
-            this.pictureBoxC1.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxC1.TabIndex = 8;
-            this.pictureBoxC1.TabStop = false;
-            this.pictureBoxC1.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
-            this.pictureBoxC1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
-            this.pictureBoxC1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
-            // 
             // pictureBoxD1
             // 
             this.pictureBoxD1.Image = global::ChessApplication.Properties.Resources.WQueen;
@@ -383,6 +375,18 @@
             this.pictureBoxD1.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
             this.pictureBoxD1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
             this.pictureBoxD1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
+            // 
+            // pictureBoxC1
+            // 
+            this.pictureBoxC1.Image = global::ChessApplication.Properties.Resources.WBishop;
+            this.pictureBoxC1.Location = new System.Drawing.Point(245, 850);
+            this.pictureBoxC1.Name = "pictureBoxC1";
+            this.pictureBoxC1.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxC1.TabIndex = 8;
+            this.pictureBoxC1.TabStop = false;
+            this.pictureBoxC1.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
+            this.pictureBoxC1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
+            this.pictureBoxC1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
             // pictureBoxE1
             // 
@@ -419,18 +423,6 @@
             this.pictureBoxG1.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
             this.pictureBoxG1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
             this.pictureBoxG1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
-            // 
-            // pictureBoxH1
-            // 
-            this.pictureBoxH1.Image = global::ChessApplication.Properties.Resources.WRook;
-            this.pictureBoxH1.Location = new System.Drawing.Point(850, 850);
-            this.pictureBoxH1.Name = "pictureBoxH1";
-            this.pictureBoxH1.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxH1.TabIndex = 14;
-            this.pictureBoxH1.TabStop = false;
-            this.pictureBoxH1.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
-            this.pictureBoxH1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
-            this.pictureBoxH1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
             // pictureBoxA2
             // 
@@ -504,17 +496,17 @@
             this.pictureBoxG2.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
             this.pictureBoxG2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
-            // pictureBoxH2
+            // pictureBoxH1
             // 
-            this.pictureBoxH2.Image = global::ChessApplication.Properties.Resources.WPawn;
-            this.pictureBoxH2.Location = new System.Drawing.Point(850, 729);
-            this.pictureBoxH2.Name = "pictureBoxH2";
-            this.pictureBoxH2.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxH2.TabIndex = 24;
-            this.pictureBoxH2.TabStop = false;
-            this.pictureBoxH2.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
-            this.pictureBoxH2.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
-            this.pictureBoxH2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
+            this.pictureBoxH1.Image = global::ChessApplication.Properties.Resources.WRook;
+            this.pictureBoxH1.Location = new System.Drawing.Point(850, 850);
+            this.pictureBoxH1.Name = "pictureBoxH1";
+            this.pictureBoxH1.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxH1.TabIndex = 14;
+            this.pictureBoxH1.TabStop = false;
+            this.pictureBoxH1.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
+            this.pictureBoxH1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
+            this.pictureBoxH1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
             // pictureBoxA3
             // 
@@ -600,17 +592,17 @@
             this.pictureBoxG3.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
             this.pictureBoxG3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
-            // pictureBoxH3
+            // pictureBoxH2
             // 
-            this.pictureBoxH3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH3.Image")));
-            this.pictureBoxH3.Location = new System.Drawing.Point(850, 608);
-            this.pictureBoxH3.Name = "pictureBoxH3";
-            this.pictureBoxH3.Size = new System.Drawing.Size(115, 114);
-            this.pictureBoxH3.TabIndex = 29;
-            this.pictureBoxH3.TabStop = false;
-            this.pictureBoxH3.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
-            this.pictureBoxH3.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
-            this.pictureBoxH3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
+            this.pictureBoxH2.Image = global::ChessApplication.Properties.Resources.WPawn;
+            this.pictureBoxH2.Location = new System.Drawing.Point(850, 729);
+            this.pictureBoxH2.Name = "pictureBoxH2";
+            this.pictureBoxH2.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxH2.TabIndex = 24;
+            this.pictureBoxH2.TabStop = false;
+            this.pictureBoxH2.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
+            this.pictureBoxH2.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
+            this.pictureBoxH2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
             // pictureBoxA4
             // 
@@ -694,19 +686,19 @@
             this.pictureBoxG4.TabStop = false;
             this.pictureBoxG4.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
             this.pictureBoxG4.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
-            this.pictureBoxG4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);            
+            this.pictureBoxG4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
-            // pictureBoxH4
+            // pictureBoxH3
             // 
-            this.pictureBoxH4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH4.Image")));
-            this.pictureBoxH4.Location = new System.Drawing.Point(850, 487);
-            this.pictureBoxH4.Name = "pictureBoxH4";
-            this.pictureBoxH4.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxH4.TabIndex = 8;
-            this.pictureBoxH4.TabStop = false;
-            this.pictureBoxH4.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
-            this.pictureBoxH4.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
-            this.pictureBoxH4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
+            this.pictureBoxH3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH3.Image")));
+            this.pictureBoxH3.Location = new System.Drawing.Point(850, 608);
+            this.pictureBoxH3.Name = "pictureBoxH3";
+            this.pictureBoxH3.Size = new System.Drawing.Size(115, 114);
+            this.pictureBoxH3.TabIndex = 29;
+            this.pictureBoxH3.TabStop = false;
+            this.pictureBoxH3.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
+            this.pictureBoxH3.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
+            this.pictureBoxH3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
             // pictureBoxA5
             // 
@@ -792,17 +784,17 @@
             this.pictureBoxG5.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
             this.pictureBoxG5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
-            // pictureBoxH5
+            // pictureBoxH4
             // 
-            this.pictureBoxH5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH5.Image")));
-            this.pictureBoxH5.Location = new System.Drawing.Point(850, 366);
-            this.pictureBoxH5.Name = "pictureBoxH5";
-            this.pictureBoxH5.Size = new System.Drawing.Size(115, 115);
-            this.pictureBoxH5.TabIndex = 6;
-            this.pictureBoxH5.TabStop = false;
-            this.pictureBoxH5.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
-            this.pictureBoxH5.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
-            this.pictureBoxH5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
+            this.pictureBoxH4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH4.Image")));
+            this.pictureBoxH4.Location = new System.Drawing.Point(850, 487);
+            this.pictureBoxH4.Name = "pictureBoxH4";
+            this.pictureBoxH4.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxH4.TabIndex = 8;
+            this.pictureBoxH4.TabStop = false;
+            this.pictureBoxH4.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
+            this.pictureBoxH4.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
+            this.pictureBoxH4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
             // pictureBoxA6
             // 
@@ -815,7 +807,18 @@
             this.pictureBoxA6.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
             this.pictureBoxA6.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
             this.pictureBoxA6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
-            
+            // 
+            // pictureBoxH5
+            // 
+            this.pictureBoxH5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxH5.Image")));
+            this.pictureBoxH5.Location = new System.Drawing.Point(850, 366);
+            this.pictureBoxH5.Name = "pictureBoxH5";
+            this.pictureBoxH5.Size = new System.Drawing.Size(115, 115);
+            this.pictureBoxH5.TabIndex = 6;
+            this.pictureBoxH5.TabStop = false;
+            this.pictureBoxH5.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
+            this.pictureBoxH5.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
+            this.pictureBoxH5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
             // pictureBoxB6
             // 
@@ -1021,12 +1024,23 @@
             this.pictureBoxB2.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
             this.pictureBoxB2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(22, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1218, 723);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // ChessBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1437, 1045);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "ChessBoard";
             this.Text = "ChessBoard";
             this.Load += new System.EventHandler(this.ChessBoard_Load);
@@ -1095,6 +1109,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxA7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxB2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1165,5 +1180,6 @@
         private System.Windows.Forms.PictureBox pictureBoxF1;
         private System.Windows.Forms.PictureBox pictureBoxG1;
         private System.Windows.Forms.PictureBox pictureBoxH1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -264,5 +264,10 @@ namespace ChessApplication
             pb.Select();
             pb.DoDragDrop(pb.Image, DragDropEffects.Move);
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
