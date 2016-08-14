@@ -7,13 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Speech.Synthesis;
 
 namespace ChessApplication
 {
     public partial class ChessBoard : Form
     {
-        public ChessBoard()
+        SpeechSynthesizer s = new SpeechSynthesizer();
+            
+            public ChessBoard()
         {
+            s.Speak("Make your move");
             InitializeComponent();
         }
 
@@ -255,6 +259,7 @@ namespace ChessApplication
 
             else
                 e.Effect = DragDropEffects.None;
+            
 
         }
 
@@ -263,11 +268,15 @@ namespace ChessApplication
             PictureBox pb = (PictureBox)sender;
             pb.Select();
             pb.DoDragDrop(pb.Image, DragDropEffects.Move);
+            pictureBox_RemovePicture(sender, e);
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox_RemovePicture(object sender, MouseEventArgs e)
         {
-
+            PictureBox pb = (PictureBox)sender;
+            pb = null;
         }
+
+       
     }
 }

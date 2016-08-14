@@ -681,6 +681,7 @@
             this.pictureBoxD4.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragDrop);
             this.pictureBoxD4.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox_DragEnter);
             this.pictureBoxD4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox_MouseDown);
+
             // 
             // pictureBoxE4
             // 
